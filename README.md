@@ -1,1 +1,58 @@
-# Automobile-Market-Analysis-Using-Python-EDA-Project-
+ 🚗 Automobile Market Analysis Using Python (EDA Project)
+
+This project presents a comprehensive Exploratory Data Analysis (EDA) of customer data from Austo Motor Company, aimed at understanding key trends in car purchases based on customer demographics, financial attributes, and product preferences.
+
+The analysis was conducted using Python and key data science libraries, and results are summarized in both a Jupyter Notebook and a professional PDF business report.
+
+---
+
+ 📌 Project Objectives
+
+- Identify which customer segments prefer Sedans, SUVs, or Hatchbacks
+- Analyze the relationship between salary, loans, and car purchases
+- Explore how factors like gender, marital status, and partner's employment influence spending behavior
+- Deliver actionable insights to inform marketing and sales strategy
+
+---
+
+ 🛠️ Tools & Technologies
+
+- Language: Python
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn
+- Platform: Jupyter Notebook
+
+---
+
+ 📁 Files Included
+
+- `Project_Python_for_Data_Science_Austo_Automobiles.ipynb` – Python notebook with full analysis
+- `Business Report - Automobile Market Analysis Using Python-Based Data Science.pdf` – Clean, presentation-ready business report
+
+---
+
+ 📈 Key Insights
+
+- Sedans are the most popular vehicle type overall
+- Female customers prefer SUVs and tend to spend more on average
+- Younger customers are more likely to rely on personal loans
+- Households with dual incomes lean toward higher-priced models
+- High income correlates strongly with SUV preference, while Hatchbacks are favored by low-income customers
+
+---
+
+ 💡 Business Impact
+
+The findings from this analysis can help Austo Motor Company:
+- Design targeted marketing campaigns by gender and income level
+- Offer loan-based promotions to first-time or young buyers
+- Optimize inventory and product offerings for different regions and professions
+
+---
+
+ 🚀 How to Use
+
+You can run the `.ipynb` notebook using Jupyter:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+jupyter notebook Project_Python_for_Data_Science_Austo_Automobiles.ipynb
