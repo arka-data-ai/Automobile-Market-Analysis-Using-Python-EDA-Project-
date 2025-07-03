@@ -15,6 +15,57 @@ The analysis was conducted using Python and key data science libraries, and resu
 
 ---
 
+ 📊 What I Did in This Project
+
+- Data Cleaning:
+  - Handled missing values in `Gender` and `Partner Salary`
+  - Corrected data entry errors (e.g., “Femal”, “Femle” → “Female”)
+  - Imputed missing values using logical relationships (e.g., `Total Salary - Salary = Partner Salary`)
+  - Checked and confirmed absence of duplicate records
+
+- Data Preprocessing:
+  - Verified data types and structures
+  - Converted appropriate columns to categorical/numeric formats
+  - Created derived variables for deeper insights
+
+- Univariate Analysis:
+  - Analyzed distributions of age, salary, price, car type, etc.
+  - Visualized data using histograms, box plots, and count plots
+
+- Bivariate & Multivariate Analysis:
+  - Explored relationships between variables (e.g., income vs. car type)
+  - Used heatmaps to examine correlations
+  - Grouped data by categorical variables to extract trends
+
+- Insight Generation:
+  - Answered key business questions using data-driven logic
+  - Derived actionable marketing strategies for customer segments
+  - Presented findings in a clean and readable PDF report
+
+---
+
+ ❓ Key Business Questions Answered
+
+1. Do men tend to prefer SUVs more compared to women?  
+   → Compared gender-based SUV ownership and purchasing behavior.
+
+2. What is the likelihood of a salaried person buying a Sedan?  
+   → Explored sedan preference ratios across professional categories.
+
+3. What evidence or data supports Sheldon Cooper's claim that a salaried male is an easier target for a SUV sale over a Sedan sale?  
+   → Validated the claim using segmented preference analysis.
+
+4. How does the amount spent on purchasing automobiles vary by gender?  
+   → Compared average and total spending by male and female customers.
+
+5. How much money was spent on purchasing automobiles by individuals who took a personal loan?  
+   → Analyzed car spending among customers with personal loans.
+
+6. How does having a working partner influence the purchase of higher-priced cars?  
+   → Investigated how partner employment status affects car pricing behavior.
+
+---
+
  🛠️ Tools & Technologies
 
 - Language: Python
